@@ -19,6 +19,7 @@ def hexaceteric(num):
         num //= 16
     return result
 
+
 num = int(input("Введите целое число: "))
 result = hexaceteric(num)
 print(result[-1::-1])
